@@ -36,5 +36,5 @@ resource "aws_instance" "web_server_instance" {
 }
 resource "aws_s3_bucket" "buc" {
   count  = var.flag == "true" ? 1 : 0
-  bucket = "samplebucket23"
+  bucket = "bucket9023"
 }
